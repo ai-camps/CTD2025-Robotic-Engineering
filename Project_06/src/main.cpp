@@ -20,7 +20,7 @@ String deviceID;  // Will be initialized in setup()
 
 // Owner information
 constexpr char ownerOrg[] = "CTD2025";
-constexpr char ownerEmail[] = "jun.wen@ai-camps.com";
+constexpr char ownerEmail[] = "jun.wen@ctdgo.northwestern.edu";
 
 void setupWiFi()
 {
