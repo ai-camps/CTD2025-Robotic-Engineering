@@ -9,8 +9,8 @@ void setup()
   // Initialize serial communication at 115200 baud rate
   Serial.begin(115200);
 
-  // Initialize the Red LED pin as an output
-  pinMode(BUTTON_PIN, INPUT_PULLUP);
+  // Initialize the Button pin as an input with pull-up resistor
+  pinMode(BUTTON_PIN, OUTPUT);
 }
 
 void loop()
