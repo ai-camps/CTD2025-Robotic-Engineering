@@ -6,7 +6,7 @@
 
 // WiFi credentials
 constexpr char ssid[] = "sesplearningstudios";
-constexpr char password[] = "@nn3nb3rg";
+constexpr char password[] = "?nn3nb3rg";
 
 // WordPress API endpoint (use HTTPS for security)
 constexpr char apiEndpoint[] = "https://www.ai-camps.com/wp-json/device/v1/info";
