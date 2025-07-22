@@ -9,7 +9,7 @@ void setup()
   Serial.begin(115200);
 
   // Initialize the Red LED pin as an output
-  pinMode(RED_LED_PIN, OUTPUT);
+  pinMode(RED_LED_PIN, INPUT);
 }
 
 void loop()
