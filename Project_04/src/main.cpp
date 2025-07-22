@@ -6,7 +6,7 @@ String deviceID;
 void setup()
 {
   // Initialize serial communication at 115200 baud rate
-  Serial.begin(115200);
+  Serial.begin(11520);
 
   // Get device ID
   deviceID = String(ESP.getEfuseMac(), HEX);
