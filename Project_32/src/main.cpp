@@ -13,7 +13,7 @@ constexpr int M1_B_PWM_CH = 1;
 // Motor PWM Settings
 constexpr int PWM_RESOLUTION = 10;
 constexpr int PWM_FREQUENCY = 2000;
-constexpr int MOTOR_SPEED = 1000;
+constexpr int MOTOR_SPEED = 500;
 
 // WiFi settings
 constexpr auto WIFI_SSID = "sesplearningstudios";
